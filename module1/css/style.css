@@ -1,3 +1,5 @@
+/*Общие замечания: отсутствует система глобальных стилей*/
+
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 *{
@@ -63,6 +65,7 @@ li {
     margin-right: 40px;
     font-size: 16px;
     font-weight: 400;
+    /*При указывании значения меньше единицы ноль не пишется, то есть .5s*/
     transition: 0.5s;
     color: #4B5D68;
     cursor: pointer;
@@ -116,6 +119,7 @@ li:hover {
     font-size: 18px;
     max-width: 380px;
     width: auto;
+    /*Лучше использовать общую систему измерения, в данном случае px*/
     line-height: 1.667em;
     font-weight: 500;
     color: #4B5D68;
@@ -134,6 +138,7 @@ li:hover {
     font-weight: 800;
     font-size: 18px;
     cursor: pointer;
+    /*При указывании значения меньше единицы ноль не пишется, то есть .5s*/
     transition: 0.5s;
     border: 1px solid transparent;
 }
@@ -161,6 +166,7 @@ li:hover {
 }
 
 .s_block {
+    /*При указывании значения меньше единицы ноль не пишется, то есть .15*/
     background-color: rgba(240, 99, 184, 0.15);
     border-radius: 50px;
     display: flex;
@@ -243,11 +249,13 @@ li:hover {
        -moz-transform: skewX(-10deg);
          -o-transform: skewX(-10deg);
     overflow:hidden;
-    position:relative;   
+    position:relative;
+    /*После ноля единицы измерения лучше не писать*/
     padding: 50px 0px 50px 170px;
 }
 
 .f1 {
+    /*При указывании значения меньше единицы ноль не пишется, то есть .1*/
     background-color: rgba(104, 201, 186, 0.1);
     background-image: url(../image/v1.png);
     background-repeat: no-repeat;
@@ -255,6 +263,7 @@ li:hover {
 }
 
 .f2 {
+    /*При указывании значения меньше единицы ноль не пишется, то есть .1*/
     background-color: rgba(156, 105, 226, 0.1);
     background-image: url(../image/v2.png);
     background-repeat: no-repeat;
@@ -262,6 +271,7 @@ li:hover {
 }
 
 .f3 {
+    /*При указывании значения меньше единицы ноль не пишется, то есть .1*/
     background-color: rgba(240, 99, 184, 0.1);
     background-image: url(../image/v3.png);
     background-repeat: no-repeat;
@@ -269,6 +279,7 @@ li:hover {
 }
 
 .f4 {
+    /*При указывании значения меньше единицы ноль не пишется, то есть .1*/
     background-color: rgba(45, 156, 219, 0.1);
     background-image: url(../image/v4.png);
     background-repeat: no-repeat;
@@ -281,6 +292,7 @@ li:hover {
 
 .before_img::before {
     display: block;
+    /*Параметр content следует писать в самом начале*/
     content: '';
     width: 250px;
     height: 250px;
@@ -351,6 +363,7 @@ li:hover {
     height: 30px;
     margin-left: 20px;
     margin-top: 10px;
+    /*При указывании значения меньше единицы ноль не пишется, то есть .5s*/
     transition: 0.5s;
 }
 
@@ -390,8 +403,14 @@ li:hover {
     margin-top: 90px;
     margin-right: 20px;
     border: 1px solid #9C69E2;
+    /*После ноля единицы измерения лучше не писать*/
+    /*При указывании значения меньше единицы ноль не пишется, то есть .25*/
     -webkit-box-shadow: 0px 17px 0px 0px rgba(109, 76, 156, 0.25);
+    /*После ноля единицы измерения лучше не писать*/
+    /*При указывании значения меньше единицы ноль не пишется, то есть .25*/
     -moz-box-shadow: 0px 17px 0px 0px rgba(109, 76, 156, 0.25);
+    /*После ноля единицы измерения лучше не писать*/
+    /*При указывании значения меньше единицы ноль не пишется, то есть .25*/
     box-shadow: 0px 17px 0px 0px rgba(109, 76, 156, 0.25);
 }
 
@@ -483,6 +502,7 @@ li:hover {
 
 .arrows svg{
     color: white;
+    /*При указывании значения меньше единицы ноль не пишется, то есть .5s*/
     transition: 0.5s;
     cursor: pointer;
 }
