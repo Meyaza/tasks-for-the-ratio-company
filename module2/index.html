@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" charset="utf-8"></script>
+    <title>Document</title>
+</head>
+<script>
+    function checkKey (e) {
+      e = e || event;
+      e.preventDefault ? e.preventDefault() : (e.returnValue = false);
+    }
+  </script>
+  <body onkeydown="checkKey (event)">
+    <div class="main">
+        <div class="marg">
+            <div class="inf">
+                <button class="infinity">Бесконечная игра</button> <h2 class="on-off">Включено</h2>
+            </div>
+            <h1><time>00:00</time></h1>
+            <div class="score-title">score</div>
+            <span id="score">0</span><br/>
+            <div id="result"></div>
+            <div id='end'></div>
+            <div class="grid"> </div>   
+            <button class="back">Вернуть ход</button>
+            <button class="btn">Новая игра</button>
+        </div>
+        <div class="result">
+            <h2>Результаты игры</h2>
+            <div class="result-table"></div>
+        </div>
+        <div class="result_1">
+        <h2>Таблица лидеров бесконечной игры</h2>
+            <div class="result-table-infinity"></div>
+        </div>
+    </div>
+</body>
+</html>

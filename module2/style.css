@@ -1,0 +1,113 @@
+
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 510px;
+    height: 510px;
+    
+}
+
+.main {
+    display: flex;
+    width: auto;
+    flex-wrap: wrap;
+}
+
+
+.infinity {
+    width: 130px;
+    height: 50px;
+    background-color: #7b5da5;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.5s;
+    border: 1px solid transparent;
+}
+.btn {
+    width: 130px;
+    height: 50px;
+    background-color: #6ad2da;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.5s;
+    border: 1px solid transparent;
+   
+}
+
+.back {
+    width: 130px;
+    height: 50px;
+    background-color: #bab5c2;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.5s;
+    border: 1px solid transparent;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.result {
+    margin-left: 50px;
+}
+
+.result_1 {
+    margin-left: 50px;
+}
+
+.inf {
+    display: flex;
+}
+
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc0b3;
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.end {
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: rgba(248, 3, 3, 0.466);
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    
+}
+
+
+.n2{background-color:#eee3da;color:#776e65}
+.n4{background-color:#ede0c8;color:#776e65}
+.n8{background-color:#f2b179}
+.n16{background-color:#f59563}
+.n32{background-color:#f67c5f}
+.n64{background-color:#f65e3b}
+.n128{background-color:#edcf72}
+.n256{background-color:#edcc61}
+.n512{background-color:#9c0}
+.n1024{background-color:#33b5e5;font-size:30px;color:#FFF;}
+.n2048{background-color:#09c;font-size:30px;color:#FFF;}
+.n4096{background-color:#a6c;font-size:30px;color:#FFF;}
+.n8192{background-color:#93c;font-size:30px;color:#FFF;}
