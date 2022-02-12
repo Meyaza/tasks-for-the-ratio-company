@@ -476,7 +476,6 @@ document.addEventListener('DOMContentLoaded', () => {
             let checked = isGameOver()
             if (checked === true) {
                 endGame()
-
             }
             if (before != after) {
                 generate()
@@ -522,7 +521,6 @@ document.addEventListener('DOMContentLoaded', () => {
         for (i = 0; i < 5; i++) {
             for (j = 0; j < 5; j++) {
                 squares[i][j].innerHTML = '';
-
             }
         }
         const grid = document.getElementById('end')
